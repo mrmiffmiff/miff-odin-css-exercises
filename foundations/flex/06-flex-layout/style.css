@@ -5,6 +5,32 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header a,
+.footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header li,
+.footer li {
+  list-style-type: none;
+}
+
+.header ul,
+.footer ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 img {
