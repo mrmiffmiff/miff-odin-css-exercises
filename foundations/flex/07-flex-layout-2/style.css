@@ -28,6 +28,7 @@ body {
 
 .body {
   flex: 1;
+  /* I still don't get why this works */
   display: flex;
 }
 
@@ -60,7 +61,7 @@ body {
   padding: 48px;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 32px;
 }
 
 .card {
