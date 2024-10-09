@@ -42,11 +42,12 @@ body {
 
 .content {
   /* align-self: center; */
-  flex: 1;
+  /* flex: 1;  I admit I may have copied this line in particular; but it's unnecessary with my solution since I justify by space between */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 16px;
 }
 
 img {
