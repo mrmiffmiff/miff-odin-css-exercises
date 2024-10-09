@@ -13,7 +13,7 @@ body {
 .header a,
 .footer a {
   text-decoration: none;
-  color: grey;
+  color: #666;
 }
 
 .header,
