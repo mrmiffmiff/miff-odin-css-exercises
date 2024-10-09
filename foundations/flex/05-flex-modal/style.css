@@ -32,7 +32,11 @@ body {
   font-size: 18px;
   font-weight: 700;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
 
 .icon {
