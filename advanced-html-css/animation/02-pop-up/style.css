@@ -40,7 +40,7 @@ button {
   opacity: 0%;
   text-align: center;
   transition-property: transform, opacity;
-  transition-timing-function: ease;
+  transition-timing-function: ease-in-out, ease;
   transition-duration: 500ms;
 }
 
